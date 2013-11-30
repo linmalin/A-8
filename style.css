@@ -1,0 +1,197 @@
+/*
+Theme Name: responsive-child
+Theme URI: http://www.linnymalin.com/
+Description: Portfolio site
+Author: Linny Malin
+Author URI: http://www.linnymalin.com
+Template: responsive
+Version: 0.1
+*/
+
+@import url("../responsive/style.css");
+
+body{
+	background-color:#F7F6F5;
+	/*font-family: Futura,"Trebuchet MS", Helvetica, Ariel, sans-serif;*/
+    font-family: Cambria, Georgia, Palatino, Times New Roman, Serif;
+	font-size:lighter;
+}
+h1{
+	font-family: Futura,"Trebuchet MS", Helvetica, Ariel, sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+/*container*/
+#container{
+	background-color:#F7F6F5;
+}
+.breadcrumb-list{}
+/*end container*/
+.h1{
+
+	font-weight:lighter;
+
+}
+/*logo*/
+
+#logo{
+	float:right;
+	padding-right: 40px;
+
+}
+/*end logo*/
+#widgit{
+
+}
+/*wrapper*/
+#wrapper{
+	border:none;
+	background-color:#F7F6F5;
+}
+/* top nav(menu)*/
+.menu{
+    font-family: Futura,"Trebuchet MS", Helvetica, Ariel, sans-serif; 
+	background-color: #F7F6F5;
+    background-image: none;
+    float: right;
+    padding-right:30px;
+
+}
+.li{
+	color: #A8A8A8;
+}
+.menu a {
+    border-left: none;
+    color: #a8a8a8;
+    font-size: 13px;
+    font-weight: 100;
+    height: 45px;
+    line-height: 45px;
+    margin: 0;
+    padding: 0 0.9em;
+    position: relative;
+    text-shadow: none;
+    
+}
+.current-item-a{
+	background-color:#F7F6F5;
+	color:#F7F6F5;
+}
+.menu a:hover{
+	background-image:none;
+	margin:0px;
+	color:#515150;
+	background-color: #F7F6F5;
+
+}
+.menu li a{
+	font:#515150;
+}
+.menu .current_page_item a {
+	background-color: #F7F6F5;
+	color:#515150;
+
+}
+.menu:after, .menu ul:after {
+	background-color:#F2EFE8;
+}
+/* start responsive */
+.js .main-nav #responsive_current_menu_item{
+    background-color: #F7F6F5;
+    background-image: none;
+    float: right;
+    padding-right:30px;
+    color:#F7F6F5;
+
+}
+
+
+/* end responsive nav */
+/*end menu*/
+
+
+.post-entry{
+    float:center;
+    padding-left:100px;
+}
+/*START HOME GALLERY*/
+.flexslider{
+    width:100%;
+}
+#gallery_cont{
+    width:100%;
+    padding-right:-100px;
+}
+a .flex-prev{
+    background-image: url ('../image/back-01.png');
+}
+/*END HOME GALLERY*/
+
+/* start form */
+.grid col-620{
+  float:right;   
+}
+.grid gol-940{
+    float:right;
+}
+   
+
+}
+
+/* start name and subject */
+
+select, input[type="text"], input[type="password"], input[type="email"] {
+    padding-left: 200px;
+    width:600px;
+    float:right;
+    background-color: #F7F6F5;
+    border-color: #515150;
+    border-image: none;
+    border-radius: 2px;
+    border-style: none;
+    border-width: 1px;
+    cursor: text;
+    margin: 0;
+    outline: medium none;
+    padding: 6px 8px;
+    vertical-align: middle;
+}
+/* end name and subject */
+
+/* start text box*/
+area, textarea {
+    width:600px;
+    float:right;
+    background-color: #F7F6F5;
+    border-color: #AAAAAA #AAAAAA #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+    padding: 6px 20px;
+}
+/* end text box */
+
+/* Send button start*/
+a.button, input[type="reset"], input[type="button"], input[type="submit"] {
+    float:right;
+    background-color: #F9F9F9;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #F1F1F1);
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/* end send button */
+/* end form */
