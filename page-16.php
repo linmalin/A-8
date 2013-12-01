@@ -47,7 +47,7 @@ get_header(); ?>
 				<!-- end of .post-entry -->
 				<!-- start gallery slider -->
 				<div id="gallery_content">
-					<?php echo do_shortcode("[metaslider id=49]"); ?>
+					<?php echo do_shortcode("[metaslider id=82]"); ?>
 				</div>
 				<!-- end gallery slider-->
 

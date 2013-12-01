@@ -1,8 +1,7 @@
 <?php
-/* Template Name: Contact */
+/* Template Name: */
 
 ?>
-
 <?php
 
 // Exit if accessed directly
@@ -27,7 +26,7 @@ if( !defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
-<div id="content" class="grid col-940<?php //echo implode( ' ', responsive_get_content_classes() ); ?>">
+<div id="content" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
 
 	<?php if( have_posts() ) : ?>
 
@@ -46,15 +45,6 @@ get_header(); ?>
 					<?php wp_link_pages( array( 'before' => '<div class="pagination">' . __( 'Pages:', 'responsive' ), 'after' => '</div>' ) ); ?>
 				</div>
 				<!-- end of .post-entry -->
-				<!-- start about -->
-				
-				<!-- end about -->
-
-
-				<!-- form -->
-				<?php echo do_shortcode( '[contact-form-7 id="48" title="Contact"]' ); ?>
-
-				<!-- end of form -->
 
 				<?php get_template_part( 'post-data' ); ?>
 
@@ -79,6 +69,5 @@ get_header(); ?>
 	?>
 
 </div><!-- end of #content -->
-
 
 <?php get_footer(); ?>

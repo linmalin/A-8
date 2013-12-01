@@ -26,7 +26,7 @@ if( !defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
-<div id="content" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
+<div id="content" class="grid col-960<?php //echo implode( ' ', responsive_get_content_classes() ); ?>">
 
 	<?php if( have_posts() ) : ?>
 

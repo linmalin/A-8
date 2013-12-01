@@ -26,29 +26,31 @@ h1{
 #container{
 	background-color:#F7F6F5;
 }
-.breadcrumb-list{}
 /*end container*/
+
 .h1{
 
 	font-weight:lighter;
-
 }
-/*logo*/
 
+/*logo*/
 #logo{
 	float:right;
 	padding-right: 40px;
-
 }
 /*end logo*/
-#widgit{
 
-}
 /*wrapper*/
 #wrapper{
 	border:none;
 	background-color:#F7F6F5;
+    margin: 0;
 }
+
+#content {
+    margin-top: 20px;
+}
+
 /* top nav(menu)*/
 .menu{
     font-family: Futura,"Trebuchet MS", Helvetica, Ariel, sans-serif; 
@@ -105,16 +107,14 @@ h1{
     color:#F7F6F5;
 
 }
-
-
 /* end responsive nav */
 /*end menu*/
 
-
-.post-entry{
+/* .post-entry{
     float:center;
     padding-left:100px;
-}
+} */
+
 /*START HOME GALLERY*/
 .flexslider{
     width:100%;
@@ -129,60 +129,58 @@ a .flex-prev{
 /*END HOME GALLERY*/
 
 /* start form */
-.grid col-620{
-  float:right;   
-}
-.grid gol-940{
-    float:right;
+.contact-form {
+  float:right;
+  max-width: 500px;
+  width: 100%;
+  margin: 0;  
 }
    
-
-}
-
 /* start name and subject */
-
 select, input[type="text"], input[type="password"], input[type="email"] {
-    padding-left: 200px;
-    width:600px;
-    float:right;
-    background-color: #F7F6F5;
-    border-color: #515150;
-    border-image: none;
-    border-radius: 2px;
-    border-style: none;
-    border-width: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    box-shadow: none;
     cursor: text;
     margin: 0;
+    max-width: 500px;
     outline: medium none;
-    padding: 6px 8px;
+    padding: 6px 10px;
     vertical-align: middle;
+    width: 100%;
+    font-family: Futura,"Trebuchet MS", Helvetica, Ariel, sans-serif;
+    color: #a8a8a8;
 }
 /* end name and subject */
 
 /* start text box*/
 area, textarea {
-    width:600px;
+    max-width:500px;
+    width: 100%;
     float:right;
-    background-color: #F7F6F5;
-    border-color: #AAAAAA #AAAAAA #CCCCCC;
-    border-image: none;
+    background-color: #FFF;
+    border-radius: 0;
+    border-color: #CCCCCC;
+    box-shadow: none;
     border-style: solid;
     height: auto;
     margin: 0;
     overflow: auto;
-    padding: 6px 20px;
+    padding: 6px 10px;
+    font-family: Futura,"Trebuchet MS", Helvetica, Ariel, sans-serif;
+    color: #a8a8a8;
 }
 /* end text box */
 
 /* Send button start*/
 a.button, input[type="reset"], input[type="button"], input[type="submit"] {
     float:right;
-    background-color: #F9F9F9;
-    background-image: -moz-linear-gradient(center top , #F9F9F9, #F1F1F1);
+    background-color: #FFF;
+    background-image: none;
     border: 1px solid #DDDDDD;
-    border-radius: 2px;
+    border-radius: 0;
     color: #333333;
-    cursor: pointer;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
@@ -192,6 +190,33 @@ a.button, input[type="reset"], input[type="button"], input[type="submit"] {
     text-decoration: none;
     vertical-align: middle;
     white-space: nowrap;
+    margin-top: 20px;
+    color: #a8a8a8;
+}
+
+a.button:hover,
+input[type='reset']:hover,
+input[type='button']:hover,
+input[type='submit']:hover {
+background-color: #515150;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+border: none;
+box-shadow: none;
+color: #ffffff;
 }
 /* end send button */
 /* end form */
+
+.post-32 {
+    float: right;
+}
+
+/* start footer */
+.copyright {
+    font-family: Cambria, Georgia, Palatino, Times New Roman, Serif;
+}
